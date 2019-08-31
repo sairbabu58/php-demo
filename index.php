@@ -3,6 +3,6 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Welcome to IBM[Redhat]</p>'; ?> 
+ <?php echo '<p>demo Application</p>'; ?> 
  </body>
 </html>
