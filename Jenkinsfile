@@ -4,7 +4,7 @@ pipeline {
         stage('login-ocpCluster') { 
             steps {
              script {
-              sh (script:"oc login -u admin -p adm-password --server=https://master.ibmdemo.example.com:8443 --insecure-skip-tls-verify") 
+              sh (script:"oc login -u admin -p ******** --server=https://master.ibmdemo.example.com:8443 --insecure-skip-tls-verify") 
                     }
             }
         }
